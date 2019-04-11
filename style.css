@@ -54,7 +54,7 @@ position: relative;
 
 #bottom-right
 {
-right: 0;
+right: 5;
 bottom: 0;
 position: absolute;
 text-align: center;
@@ -62,7 +62,7 @@ text-align: center;
 
 #bottom-left
 {
-left: 0;
+left: 5;
 bottom: 0;
 position: absolute;
 text-align: center;
