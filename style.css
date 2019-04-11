@@ -1,0 +1,113 @@
+html {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	font-size: 34px;
+	font-family: 'IBM Plex Sans Condensed', sans-serif;
+	text-shadow: 2px 2px 8px #555;
+	color: white;
+	background: url('background1.jpg') no-repeat center center fixed;
+	background-size: cover;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+	
+}
+
+.header {
+    padding: 90px 20px 0px;
+    text-align: center;
+    background: url(vegetables.jpg);
+}
+
+
+
+h1 {
+	font-family: 'Russo One', sans-serif;
+	/*font-family: 'Merriweather', serif;*/
+	font-size: 44px;
+	text-transform: uppercase;
+	color: white;
+	text-shadow: 2px 2px 8px #555;
+
+}
+
+.container  {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    
+   
+}
+
+.btn  {
+	position: fixed;
+    left: 0;
+    bottom: 30px;
+    width: 100%;
+    text-align: center;;
+     
+}
+
+button {
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	font-family: 'Merriweather', serfi;
+	font-size: 38px;
+	font-weight: bolder;
+	color: #0e0e3f;
+	text-decoration: none;
+	cursor: pointer;
+	background-color: rbga(0,0,0,0.4);
+	border: 3px inset #555;
+	height: 60px;
+	width: 200px;
+}
+
+button:focus {
+	outline:0;
+}
+
+button:hover{
+	opacity: .75;
+}
+
+a{
+	color: black;
+}
+
+
+
+@media (min-width: 1200px){
+  .container {
+    width: 1170px;
+
+}}
+
+@media (min-width: 992px){
+.container {
+    width: 970px;
+
+}}
+
+@media (min-width: 768px){
+  .container {
+    width: 750px;
+
+}}
+
+@media (max-width: 610px){
+  .container {
+    font-size: 24px;
+
+}}
+
+/*@media (max-width: 800px) {
+  .container h1 {
+    font-size: 60px;
+    line-height: 1;
+}}*/
