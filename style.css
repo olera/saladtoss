@@ -44,7 +44,7 @@ h1 {
    
 }
 
-#container
+#btn-container
 {
 width: 300px;
 height: 200px;
@@ -57,6 +57,7 @@ position: relative;
 right: 0;
 bottom: 0;
 position: absolute;
+text-align: center;
 }
 
 #bottom-left
@@ -64,15 +65,8 @@ position: absolute;
 left: 0;
 bottom: 0;
 position: absolute;
-}
-
-.btn  {
-	position: fixed;
-    left: 0;
-    bottom: 30px;
-    width: 100%;
-    text-align: center;;
-     
+text-align: center;
+ 
 }
 
 button {
