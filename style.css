@@ -44,6 +44,28 @@ h1 {
    
 }
 
+#container
+{
+width: 300px;
+height: 200px;
+border: solid 1px #000;
+position: relative;
+}
+
+#bottom-right
+{
+right: 0;
+bottom: 0;
+position: absolute;
+}
+
+#bottom-left
+{
+left: 0;
+bottom: 0;
+position: absolute;
+}
+
 .btn  {
 	position: fixed;
     left: 0;
@@ -59,7 +81,7 @@ button {
 	font-family: 'Merriweather', serfi;
 	font-size: 38px;
 	font-weight: bolder;
-	color: #0e0e3f;
+	color: #34282C;
 	text-decoration: none;
 	cursor: pointer;
 	background-color: rbga(0,0,0,0.4);
