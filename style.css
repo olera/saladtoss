@@ -47,14 +47,16 @@ h1 {
 #btn-container
 {
 bottom: 30px;
-width: 100%;
+width: 500px;
 height: 100px;
-position: relative;
+position: absolute;
+left: 50%;
+margin-left: -100px;
 }
 
 #bottom-right
 {
-right: 5;
+right: 0;
 bottom: 0;
 position: absolute;
 text-align: center;
@@ -62,7 +64,7 @@ text-align: center;
 
 #bottom-left
 {
-left: 5;
+left: 0;
 bottom: 0;
 position: absolute;
 text-align: center;
