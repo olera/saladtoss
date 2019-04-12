@@ -1,0 +1,116 @@
+html {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	font-size: 34px;
+	font-family: 'IBM Plex Sans Condensed', sans-serif;
+	text-shadow: 2px 2px 8px #555;
+	color: white;
+	background: url('background1.jpg') no-repeat center center fixed;
+	background-size: cover;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+	
+}
+
+body > * {
+  width: 100%;
+}
+
+.header {
+    padding: 90px 20px 0px;
+    text-align: center;
+    background: url(vegetables.jpg);
+}
+
+
+
+h1 {
+	font-family: 'Russo One', sans-serif;
+	/*font-family: 'Merriweather', serif;*/
+	font-size: 44px;
+	text-transform: uppercase;
+	color: white;
+	text-shadow: 2px 2px 8px #555;
+
+}
+
+.container  {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    
+   
+}
+
+.btn  {
+	position: relative;
+    left: 0;
+    width: 100%;
+    text-align: center;
+     
+}
+
+ .js-focus-visible .btn:focus:not(.focus-visible) {
+      box-shadow: none;
+    }
+
+button {
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	font-family: 'Merriweather', serfi;
+	font-size: 100%;
+	font-weight: bolder;
+	color: #34282C;
+	text-decoration: none;
+	cursor: pointer;
+	background-color: #D3D3D3;
+	border: 3px inset #555;
+	margin: 12px 0;
+	padding: 0em 0em;*/
+}
+
+button:active {
+  transform: translateY(1px);
+  filter: saturate(150%);
+}
+
+
+button:hover{
+  border-color: currentColor;
+  background-color: white;
+  opacity: .75;
+  outline:0;
+}
+
+button:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(0,0,0,0.4),
+    0 0 0 1.5px rgba(0,0,0,0.4);
+
+a{
+	color: black;
+}
+
+html {
+  height: 100%;
+  font-size: 106.25%;
+}
+
+@media (min-width: 600px) {
+  html {
+    font-size: 112.5%;
+  }
+}
+
+@media (min-width: 1600px) and (min-height: 800px) {
+  html {
+    font-size: 125%;
+  }
+}
+
